@@ -1,0 +1,52 @@
+#productos-contenedor{
+	width: 100%;
+	display: inline-block;
+}
+#datos-cliente{
+	width: 100%;
+	margin-top: 15px;
+	display: inline-block;
+	text-align: center;
+}
+.datos-cliente-titulo{
+	text-align: center;
+	width: 95%;
+}
+.input-cliente{
+	margin: 4px 0 4px 0;
+	width: 95%;	
+}
+.hidden{
+	display: none;
+}
+.visible{
+	display: block;	
+}
+.input-cliente > label {
+	width: 20%;	
+	margin: 0 10px 0 10px;
+}
+.input-cliente > input {
+	width: 25%;	
+}
+.categoria-contenedor{
+	text-align: center;
+	width: 95%;
+}
+.categoria-nombre{
+	text-align: center;
+}
+.producto-by-cat-3{
+	width: 30%;
+	display: inline-block;
+}
+.producto-by-cat-4{
+	width: 22%;
+	display: inline-block;
+}
+.producto-imagen{
+	width: 80%;
+}
+.producto-cantidad{
+	width: 10%;
+}
