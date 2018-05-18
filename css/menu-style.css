@@ -72,3 +72,12 @@
 .producto-cantidad{
 	width: 10%;
 }
+
+.inline-h3{
+	width: 10%;
+	margin: 0;
+	display: inline;
+}
+.center-content{
+	text-align: center;
+}
