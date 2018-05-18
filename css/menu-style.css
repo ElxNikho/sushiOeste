@@ -10,7 +10,29 @@
 }
 .datos-cliente-titulo{
 	text-align: center;
+	margin: auto;
 	width: 95%;
+}
+#datos-detalleCompra-titulo{	
+	text-align: center;
+	width: 95%;
+}
+#detalle-productos{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
+.detalle-productos-elements{
+	width: 80%;
+	text-align: center;
+}
+.detalle-p-nombre{
+	display: inline-block;
+	width: 20%;
+}
+.detalle-p-valor{
+	display: inline-block;
+	width: 8%;
 }
 .input-cliente{
 	margin: 4px 0 4px 0;

@@ -7,3 +7,4 @@ function despacho(elemento){
 	}
 	console.log(elemento.checked);
 }
+function goback(){ window.history.back();}
