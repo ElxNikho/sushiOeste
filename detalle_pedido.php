@@ -92,7 +92,10 @@
 			<input id="volver" name="volver" value="volver" type="submit" onclick="goback();" >
 		</div>
 		<div class="detalle-p-valor">
-				<input id="pagar" name="pagar" value="pagar" type="submit" >
+				<form action="pagar_action.php" method="POST">
+					<input id="pagar" name="pagar" value="pagar" type="submit" >
+				</form>
+				
 		</div>
 	 </div>
 </body>
