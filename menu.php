@@ -84,7 +84,7 @@
 			<div class="producto-by-cat-4">
 			<img class="producto-imagen"src="<?php echo $row['url'] ?>">
 			<h4><?php echo $row["nombreproducto"] . ' $' . $row["precio"] ?></h4>
-			<input id="<?php echo $row["idproducto"] ?>" name="bebida<?php echo $row["idproducto"] ?>" value="<?php echo $row["idproducto"] ?>" class="producto-cantidad" type="radio" step="1" min="0" value="0">
+			<input id="<?php echo $row["idproducto"] ?>" name="bebida" value="<?php echo $row["idproducto"] ?>" class="producto-cantidad" type="radio" step="1" min="0" >
 		</div>
 	<?php
 		}
