@@ -17,8 +17,8 @@
 		<div class="input-cliente"><label for="nombre_cli">Nombre </label> <input id="nombre_cli" name="nombre_cli" type="text" ></div>
 		<div class="input-cliente"> <label for="apellido_cli">Apellido </label> <input id="apellido_cli" name="apellido_cli" type="text" ></div>
 		<div class="input-cliente"> <label for="fono_cli">Teléfono </label><input id="fono_cli" name="fono_cli" type="text"  ></div>
-		<div class="input-cliente"> <label for="despacho_cli">Despacho? </label> <input id="despacho_cli" name="despacho_cli" type="checkbox" checked="" onchange="despacho(this);" ></div>
-		<div id="direccion" class="input-cliente visible"> <label for="direccion_cli">Dirección </label> <input id="direccion_cli" name="direccion_cli" type="text" ></div>
+		<div class="input-cliente"> <label for="despacho_cli">Despacho? </label> <input id="despacho_cli" name="despacho_cli" type="checkbox" onchange="despacho(this);" ></div>
+		<div id="direccion" class="input-cliente hidden"> <label for="direccion_cli">Dirección </label> <input id="direccion_cli" name="direccion_cli" type="text" ></div>
 		<div class="input-cliente"> <label for="enviar_cli">Comprar </label> <input id="enviar_cli" name="enviar_cli" type="submit" value="Comprar"></div>
 	</div>
 	<div id="productos-contenedor">

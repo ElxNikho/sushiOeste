@@ -16,11 +16,14 @@
 	 	<div class="datos-cliente-titulo">
 			<h1 >Datos venta</h1>
 		</div>
-	 	<div class="input-client"><label ><?= $productos['cliente']['nombre'] . ' ' . $productos['cliente']['apellido']?> </label> </div>
+	 	<div class="input-client"><label ><?= 'Nombre: ' .$productos['cliente']['nombre'] . ' ' . $productos['cliente']['apellido']?> </label> </div>
 	 	<div class="input-client">
-	 		<label ><?php echo $productos['cliente']['fono'] . ' '; echo  $productos['cliente']['despacho'] == true ? "Despacho a domicilio" :  ''; ?> </label> 
+	 		<label ><?php echo 'Teléfono: ' . $productos['cliente']['fono'] . ' '; ?> </label> 
 	 	</div>
-	 	<div class="input-client"><label ><?php echo ($productos['cliente']['despacho']) ? $productos['cliente']['direccion'] :  ''; ?> </label> </div>
+	 	<div class="input-client">
+	 		<label ><?php  echo  $productos['cliente']['despacho'] == true ? "Despacho a domicilio" :  ''; ?> </label> 
+	 	</div>
+	 	<div class="input-client"><label ><?php echo 'Dirección: '; echo ($productos['cliente']['despacho']) ? $productos['cliente']['direccion'] :  ''; ?> </label> </div>
 	 </div>
 	 <div id="detalle-productos">
 	 	<div class="datos-detalleCompra-titulo">

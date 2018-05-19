@@ -48,9 +48,7 @@
 					}													
 				}
 			}	
-			
-			echo $bebida;
-
+						
 			if( $bebida != -1){				
 						$current = array('bebestible' => mysqli_fetch_assoc(getBebestibleById($bebida)) , 'cantidad' => 1);
 						array_push($bebestible, $current);
